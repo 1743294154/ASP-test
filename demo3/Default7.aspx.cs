@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Default7 : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void Linkbutton1_Click(object sender, EventArgs e)
+    {
+        //点击链接按钮，会先执行事件代码，再跳转到目标
+        
+    }
+}
