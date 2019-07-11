@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master1.master.cs" Inherits="master1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="anniu.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+            a:link
+            {
+                color:White;
+            }
+         a:visited
+         {
+             color:White;
+             }
+               a:hover
+               {
+                   color:Yellow;
+                   }
+               
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 1000px; margin: 15px auto 5px auto;">
+            <tr>
+                <td colspan="2" style="background-color: aliceblue; height: 90px;">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="img\a.png" />
+                </td>
+            </tr>
+             <td colspan="2" style=" height:90px">
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
+                width="1000"  id="Object1" align="center">
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="movie" value="img/b.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#000080" />
+                <embed src="img/a.swf" quality="high" bgcolor="#000080" width="1000" 
+                    name="mymovie" align="center" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
+                    pluginspage="http://www.macromedia.com/go/getflashplayer" />
+            </object>
+            </td>
+            
+            <tr>
+                <td style="width: 185px; background-color: brown; height: 480px; vertical-align: top;
+                    text-align: center; padding-top:10px; color:White;">
+                    <asp:Label ID="Label1" runat="server" Text="网站导航" Font-Size="20" Font-Bold="true" ForeColor="Yellow"></asp:Label>
+                    <hr />
+                        <ul style="font-size:16px; padding:0px; margin:0px; font-weight:700;">
+                            <li style="list-style:none; height:24px; padding-top:10px; border-bottom:1px dotted white;">
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/index.aspx" Width="100%" Height="100%" >首页</asp:HyperLink>
+                                
+                            </li>
+                            <li style="list-style:none; height:24px; padding-top:10px; border-bottom:1px dotted white;">
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/news.aspx">新闻</asp:HyperLink>
+                                
+                            </li>
+                            <li style="list-style:none; height:24px; padding-top:10px; border-bottom:1px dotted white;">
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/sport.aspx">体育</asp:HyperLink>
+                                
+
+                            </li>
+                            <li style="list-style:none; height:24px; padding-top:10px; border-bottom:1px dotted white;">
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/game.aspx">游戏</asp:HyperLink>
+                                
+                            </li>
+                            <li style="list-style:none; height:24px; padding-top:10px; border-bottom:1px dotted white;">
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/music.aspx">音乐</asp:HyperLink>
+                                
+                            </li>
+
+                        </ul>
+
+                </td>
+                <td style="width: 815px; background-color: darkgray; vertical-align: top; padding-left: 10px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: Orange; height: 60px; padding-left: 200px">
+                    <div style="float: left;">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="img\foot_logo.png" margin-left="100px"
+                            line-height="160%" />
+                    </div>
+                    <div style="color: White; font-size: 12px; float:left; padding-left:50px;">
+                        电话：0/38-22651110
+                        <br />
+                        地址：中国 · 四川 德阳市泰山南路二段801号
+                    </div>
+                    <div  style="float:left; padding-left:50px">
+                        <div class="head_right_tu_1">
+                        <a href="#"><img src="img/head_right_tu_touming.png" height="27" width="27"/></a>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </td>
+            </tr>
+        </table>
+        >
+    </div>
+    </form>
+</body>
+</html>

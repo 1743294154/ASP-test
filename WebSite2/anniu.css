@@ -1,0 +1,67 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none
+.head_right_tu{
+		height:27px;
+		width:400px;
+		float:right;
+		margin-top:32px
+		
+		}
+.head_right_tu_1{
+		float:left;
+		width:27px;
+		height:27px;
+		background-image: url(image/head_right_tu_1_zise.png);
+}
+.head_right_tu_1:link{
+		
+		background-image: url(image/head_right_tu_1_huangse.png);
+		}
+.head_right_tu_1:hover{
+background-image: url(image/head_right_tu_1_zise.png);
+}		
+
+.head_right_tu_2{
+		margin-left:10px;
+		float:left;
+		width:27px;
+		height:27px;
+		background-image: url(image/head_right_tu_2_zise.png);
+		}
+.head_right_tu_2:link{
+		background-image:url(image/head_right_tu_2_zise.png);
+		}
+.head_right_tu_2:hover{
+		background-image: url(image/head_right_tu_2_huangse.png);
+		}	
+		
+		
+.head_right_tu_3{
+		margin-left:10px;
+		float:left;
+		width:27px;
+		height:27px;
+		background-image: url(image/head_right_tu_3_zise.png);
+		}
+.head_right_tu_3:link{
+		background-image:url(image/head_right_tu_3_zise.png);
+		}
+.head_right_tu_3:hover{
+		background-image: url(image/head_right_tu_3_huangse.png);
+		}	
+		
+
+
+.head_right_tu_4{
+		margin-left:10px;
+		float:left;
+		width:86px;
+		height:27px;
+		background-image: url(image/head_right_tu_4_huangse.png);
+		}
+.head_right_tu_4:link{
+		background-image:url(image/head_right_tu_4_huangse.png);
+		}
+.head_right_tu_4:hover{
+		background-image: url(image/head_right_tu_4_zise.png);
+		}	
